@@ -5,7 +5,7 @@ class Field(object):
     def __init__(self, value=None):
         self.value = value
 
-    def is_emtpy(self):
+    def is_empty(self):
         return not self.value
 
     def __str__(self):

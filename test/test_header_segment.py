@@ -28,4 +28,4 @@ class TestHeaderSegment(TestCase):
         self.headerSegment.messageType.value = 'messageType'
         self.headerSegment.messageControlId.value = 'messageControlId'
         self.assertTrue(self.headerSegment.is_filled())
-        print self.headerSegment.to_hl7()
+        print self.headerSegment
